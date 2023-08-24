@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("registrationForm");
     const message = document.getElementById("message");
 
-    form.addEventListener("submit", function (event) {
+     form.addEventListener("submit", function (event) {
         event.preventDefault();
 
         const username = form.username.value;
@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
             message.textContent = `Invalid email or password!!`;
             message.style.color = "red";
         }
-        
-        // Clear form fields
+             // Clear form fields
         form.reset();
     });
 });
+export {username,email,password};
