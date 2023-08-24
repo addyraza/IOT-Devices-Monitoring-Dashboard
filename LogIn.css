@@ -47,11 +47,11 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
-  span{
+  a{
     margin-top: 15px;
     color: #bdd9f8;
   }
-  span:hover{
+  a:hover{
     cursor: pointer;
     text-decoration: underline;
     color: white;

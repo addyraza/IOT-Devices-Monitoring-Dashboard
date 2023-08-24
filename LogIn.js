@@ -4,7 +4,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
   
-    if (username === "shadab raza" && password === "addy@786") {
+    if (username === "Addy" && password === "addy@321") {
       // Successful login logic, e.g., redirect to a dashboard page
       alert("Login successful!");
     } else {
